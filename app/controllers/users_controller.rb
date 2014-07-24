@@ -10,6 +10,10 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
+    set_user
+    respond_to do |format|
+      format.json { render :json => @user}
+    end
   end
 
   # GET /users/new
