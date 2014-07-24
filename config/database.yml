@@ -26,35 +26,35 @@
 
 development:
   adapter: postgresql
-  database: df601cl24e3uli
-  host: ec2-54-204-2-217.compute-1.amazonaws.com
+  database: dco18jk32sqakn
+  host: ec2-54-221-206-165.compute-1.amazonaws.com
   port: 5432
-  username: nnkkeyiglslvsd
-  password: hDZ5uSHtfKP3rRQJKXMwtZ2bCF
+  username: vqypgblfpqhoko
+  password: azV1qPClNjWQLGQ585kRX2b0vk
 
 test:
   adapter: postgresql
-  database: df601cl24e3uli
-  host: ec2-54-204-2-217.compute-1.amazonaws.com
+  database: dco18jk32sqakn
+  host: ec2-54-221-206-165.compute-1.amazonaws.com
   port: 5432
-  username: nnkkeyiglslvsd
-  password: hDZ5uSHtfKP3rRQJKXMwtZ2bCF
+  username: vqypgblfpqhoko
+  password: azV1qPClNjWQLGQ585kRX2b0vk
 
 staging:
   adapter: postgresql
-  database: df601cl24e3uli
-  host: ec2-54-204-2-217.compute-1.amazonaws.com
+  database: dco18jk32sqakn
+  host: ec2-54-221-206-165.compute-1.amazonaws.com
   port: 5432
-  username: nnkkeyiglslvsd
-  password: hDZ5uSHtfKP3rRQJKXMwtZ2bCF
+  username: vqypgblfpqhoko
+  password: azV1qPClNjWQLGQ585kRX2b0vk
 
 production:
   adapter: postgresql
-  database: df601cl24e3uli
-  host: ec2-54-204-2-217.compute-1.amazonaws.com
+  database: dco18jk32sqakn
+  host: ec2-54-221-206-165.compute-1.amazonaws.com
   port: 5432
-  username: nnkkeyiglslvsd
-  password: hDZ5uSHtfKP3rRQJKXMwtZ2bCF
+  username: vqypgblfpqhoko
+  password: azV1qPClNjWQLGQ585kRX2b0vk
 
 #staging:
 #  adapter: postgresql
