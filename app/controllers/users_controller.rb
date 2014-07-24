@@ -5,6 +5,10 @@ class UsersController < ApplicationController
   # GET /users.json
   def index
     @users = User.all
+    custom_hash = @users.inject({}) {|h, k| h.merge k.attuid => k}
+    respond_to do |format|
+      format.json { render :json => custom_hash}
+    end
   end
 
   # GET /users/1
