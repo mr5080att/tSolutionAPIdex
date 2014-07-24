@@ -20,15 +20,17 @@
     <data-source source="LOCAL" name="Rails tSolutionAPIdex: production" uuid="18c0d19d-0b4b-4851-8dc3-ba1df2e2385a">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost
-Status API Training Shop Blog About
-© 2014 GitHub, Inc. Terms Privacy Security Contact/cables_production</jdbc-url>
+      <jdbc-url>jdbc:postgresql://ec2-54-204-2-217.compute-1.amazonaws.com:5432/df601cl24e3uli</jdbc-url>
+      <user-name>nnkkeyiglslvsd</user-name>
+      <user-password>dfc2dfeedff0df9fdfdfdff9dfe2dfdedfccdfe1dffadf99dfd8dff8dffbdfe0dfe1dff2dfe7dfdddfdedff0df98dfc8dfe9dfec</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails tSolutionAPIdex: staging" uuid="64c8df84-9da5-455d-8323-755bec45b274">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1/cables_staging</jdbc-url>
+      <jdbc-url>jdbc:postgresql://ec2-54-204-2-217.compute-1.amazonaws.com:5432/df601cl24e3uli</jdbc-url>
+      <user-name>nnkkeyiglslvsd</user-name>
+      <user-password>dfc2dfeedff0df9fdfdfdff9dfe2dfdedfccdfe1dffadf99dfd8dff8dffbdfe0dfe1dff2dfe7dfdddfdedff0df98dfc8dfe9dfec</user-password>
       <libraries />
     </data-source>
   </component>

@@ -40,6 +40,22 @@ test:
   username: nnkkeyiglslvsd
   password: hDZ5uSHtfKP3rRQJKXMwtZ2bCF
 
+staging:
+  adapter: postgresql
+  database: df601cl24e3uli
+  host: ec2-54-204-2-217.compute-1.amazonaws.com
+  port: 5432
+  username: nnkkeyiglslvsd
+  password: hDZ5uSHtfKP3rRQJKXMwtZ2bCF
+
+production:
+  adapter: postgresql
+  database: df601cl24e3uli
+  host: ec2-54-204-2-217.compute-1.amazonaws.com
+  port: 5432
+  username: nnkkeyiglslvsd
+  password: hDZ5uSHtfKP3rRQJKXMwtZ2bCF
+
 #staging:
 #  adapter: postgresql
 #  database: cables_staging
