@@ -14,9 +14,10 @@
 ActiveRecord::Schema.define(version: 20140723213940) do
 
   create_table "answers", force: true do |t|
-    t.integer  "user_id",     null: false
-    t.integer  "question_id", null: false
-    t.text     "body",        null: false
+    t.integer  "user_id",                 null: false
+    t.integer  "question_id",             null: false
+    t.text     "body",                    null: false
+    t.integer  "rating",      default: 0
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -31,11 +32,11 @@ ActiveRecord::Schema.define(version: 20140723213940) do
   end
 
   create_table "questions", force: true do |t|
-    t.string   "title",                     null: false
-    t.text     "body",                      null: false
-    t.integer  "user_id",                   null: false
+    t.string   "title",            null: false
+    t.text     "body",             null: false
+    t.integer  "user_id",          null: false
     t.string   "tags"
-    t.integer  "solved_index", default: -1
+    t.integer  "solved_answer_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

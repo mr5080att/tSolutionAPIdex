@@ -5,6 +5,9 @@ class AnswersController < ApplicationController
   # GET /answers.json
   def index
     @answers = Answer.all
+    respond_to do |format|
+      format.json { render :json => @answers }
+    end
   end
 
   # GET /answers/1
