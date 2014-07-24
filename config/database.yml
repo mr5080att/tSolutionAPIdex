@@ -29,21 +29,13 @@ default: &default
   pool: 5
   timeout: 5000
 
-sqlitedev:
+development:
   <<: *default
   database: db/development.sqlite3
 
 test:
   <<: *default
   database: db/test.sqlite3
-
-development:
-  adapter: postgresql
-  database: dco18jk32sqakn
-  host: ec2-54-221-206-165.compute-1.amazonaws.com
-  port: 5432
-  username: vqypgblfpqhoko
-  password: azV1qPClNjWQLGQ585kRX2b0vk
 
 production:
   adapter: postgresql
