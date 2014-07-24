@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails tSolutionAPIdex: development" uuid="3324247b-24f5-4834-9e08-cb4b646150bc">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails tSolutionAPIdex: test" uuid="05e17822-9020-46fc-a342-132714316ea2">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails tSolutionAPIdex: production" uuid="18c0d19d-0b4b-4851-8dc3-ba1df2e2385a">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails tSolutionAPIdex: staging" uuid="64c8df84-9da5-455d-8323-755bec45b274">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
