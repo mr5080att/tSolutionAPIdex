@@ -65,6 +65,7 @@ GEM
       pry (~> 0.9)
       yard (~> 0.8)
     rack (1.5.2)
+    rack-cors (0.2.9)
     rack-test (0.6.2)
       rack (>= 1.0)
     rails (4.1.4)
@@ -130,6 +131,7 @@ DEPENDENCIES
   pg
   pry
   pry-doc
+  rack-cors
   rails (= 4.1.4)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
