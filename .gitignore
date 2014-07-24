@@ -1,3 +1,4 @@
+/.bundle
 /.ruby-version
-/.idea/*
+/.idea
 /db/*.sqlite3
